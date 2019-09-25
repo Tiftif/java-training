@@ -36,8 +36,8 @@ public class StringTraining {
 	 */
 	public static String charToString(char value) {
 
-		String charToString = Character.toString(value);
-		return charToString;
+		String charToStr = Character.toString(value);
+		return charToStr;
 	}
 
 	/**
