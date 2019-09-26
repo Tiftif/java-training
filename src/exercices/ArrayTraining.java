@@ -5,8 +5,9 @@ public class ArrayTraining {
      * @return an empty int array of size n, eg: {0, 0, 0}
      */
     public int[] emptyIntArray(int n) {
-
-        return null;
+    	int[] array = {0, 0, 0};
+  
+        return array
     }
 
     /**
