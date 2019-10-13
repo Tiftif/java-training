@@ -76,6 +76,7 @@ public class MatrixTraining {
     public int valueAtPosition(int[][] matrix, int line, int column) {
     	
         return matrix[line][column];
+        
     }
 
     /**
@@ -100,9 +101,11 @@ public class MatrixTraining {
     	
         for (int i = 0; i < matrix[0].length; i++) {
         	value += matrix[0][i] + matrix[matrix.length - 1][i];
-        }
+        	System.out.println(value);
+        }	
         for (int j = 1; j < matrix.length - 1; j++) {
         	value += matrix[j][0] + matrix[j][matrix[0].length - 1];
+        	System.out.println(value);
         }
 
         return value;
